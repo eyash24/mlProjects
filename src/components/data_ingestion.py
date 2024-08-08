@@ -2,8 +2,8 @@ import os
 import sys
 sys.path.append('/Users/yashlucky/Code/MLProjectsYoutube/src')
 
-from exception import CustomException
-from logger import logging
+from src.exception import CustomException
+from src.logger import logging
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
